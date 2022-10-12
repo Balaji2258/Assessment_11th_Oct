@@ -91,7 +91,7 @@
 	}
 	
 	.container table tr td {
-	    padding: 10px 10px 10px 45px;;
+	    padding: 15px 15px 15px 45px;;
 	    margin: 0;
 	    border: 0;
 	    text-align: center;
@@ -103,12 +103,12 @@
 	}
 	
 	td input {
-	    padding: 10px;
+	    padding: 20px;
 	    width: 60%;
 	}
 	
 	td select {
-	    padding: 10px;
+	    padding: 20px;
 	    width: 68%;
 	}
 	

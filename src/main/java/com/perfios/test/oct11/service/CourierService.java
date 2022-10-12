@@ -8,6 +8,10 @@ import com.perfios.test.oct11.pojo.CourierDetails;
 
 public class CourierService {
 	
+	public static int addCourier(CourierDetails details) throws SQLException {
+		return CourierDao.saveCourier(details);
+	}
+	
 	public static double getPayableAmount(double weight) {
 		double amount = 50;
 		if(weight < 500) {

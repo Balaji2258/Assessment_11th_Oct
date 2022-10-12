@@ -58,7 +58,7 @@ public class Add extends HttpServlet {
 			
 			CourierDetails details = new CourierDetails(senderName, fromCity, senderMobile, toCity, receiverMobile, packetWt, amount, paymentStatus, shipmentTrackingNumber, shipmentDate, deliveryDate, deliveryStatus);
 			
-			CourierDao.saveCourier(details);
+			CourierService.addCourier(details);
 			
 			response.sendRedirect("Payment.jsp?shipmentTrackingNumber=" + shipmentTrackingNumber + "&payable=" + amount);
 		}catch (Exception e) {

@@ -168,9 +168,6 @@
 	<div class="content">
 		
 		<div class="container">
-			<!-- <div class="login_img">
-				<img src="images/login.jpeg" alt="Login">
-			</div> -->
 			<form action="Add" method="post" name="registerForm">
 			<table class = "reg">
 				<tr>
